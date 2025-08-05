@@ -1,0 +1,128 @@
+# Node.js dependencies
+node_modules/
+
+# Electron build output
+dist/
+build/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+env/
+.python-version
+
+# AI Model weights (large files - will be downloaded during build)
+*.pth
+*.pt
+models/*.pth
+models/*.pt
+python-backend/models/*.pth
+python-backend/models/*.pt
+
+# Keep model info and README files
+!models/README.md
+!models/models_info.json
+!models/.gitkeep
+
+# Portable Python (downloaded during build)
+python-portable/
+
+# Editor config files
+.vscode/
+.idea/
+
+# Shell history and environment configs
+*.sh~
+.env
+.env.*
+
+# Temporary files and uploads
+python-backend/temp_uploads/
+python-backend/temp_results/
+python-backend/*.log
+
+# Build artifacts and cache
+.electron-builder-cache/
+.cache/
+
+# System files
+*.tmp
+*.temp
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# Development files
+.DS_Store
+.vscode/
+.idea/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# Backup files
+*~
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
