@@ -23,7 +23,7 @@ env/
 
 # AI Model weights (large files - will be downloaded during build)
 
-*.pt
+
 
 
 
