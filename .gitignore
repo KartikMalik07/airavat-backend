@@ -25,9 +25,9 @@ env/
 
 *.pt
 
-models/*.pt
 
-python-backend/models/*.pt
+
+
 python-backend\backend.log
 # Keep model info and README files
 !models/README.md
