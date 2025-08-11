@@ -22,11 +22,11 @@ env/
 .python-version
 
 # AI Model weights (large files - will be downloaded during build)
-*.pth
+
 *.pt
-models/*.pth
+
 models/*.pt
-python-backend/models/*.pth
+
 python-backend/models/*.pt
 python-backend\backend.log
 # Keep model info and README files
