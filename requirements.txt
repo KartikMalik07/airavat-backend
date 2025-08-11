@@ -25,6 +25,7 @@ scipy
 
 # Image Processing
 scikit-image
+scikit-learn
 
 # Data handling
 pandas
