@@ -1,0 +1,40 @@
+# Core web framework - FastAPI
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+# Deep Learning - PyTorch
+torch
+torchvision
+torchaudio
+
+# Computer Vision
+opencv-python-headless
+Pillow
+
+# YOLO
+ultralytics
+
+# EfficientNet (if available)
+efficientnet-pytorch
+
+# Scientific Computing
+numpy
+scipy
+
+# Image Processing
+scikit-image
+
+# Data handling
+pandas
+
+# HTTP and networking
+requests
+
+# Utilities
+python-dotenv
+pathlib2
+
+# For better logging
+colorlog
